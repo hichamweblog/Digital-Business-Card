@@ -1,0 +1,97 @@
+/* CSS Resets */
+html {
+  box-sizing: border-box;
+
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  min-height: 100svh;
+  text-rendering: optimizeSpeed;
+
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup {
+  font: inherit;
+}
+
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* CSS Variables */
+:root {
+  --page-bg: hsl(227, 11%, 15%);
+  --card-bg: hsl(231, 12%, 12%);
+  --footer-bg: hsl(240, 6%, 9%);
+  --text-clr: hsl(0, 0%, 86%);
+  --title-clr: hsl(0, 0%, 96%);
+  --heading-clr: hsl(0, 0%, 100%);
+  --subheading-clr: hsl(25, 79%, 78%);
+  --button-txt-clr: hsl(217, 19%, 27%);
+  --button-bg: hsl(0, 0%, 100%);
+  --ff: 'Inter', sans-serif;
+  --fw-400: 400;
+  --fw-700: 700;
+  --fs-100: 0.64rem;
+  --fs-200: 0.8rem;
+  --fs-300: 0.875;
+  --fs-400: 1rem;
+  --fs-500: 1.56rem;
+
+}
+
+
+/* General Styles */
+
+body {
+  color: var(--text-clr, #dcdcdc);
+  background-color: var(--page-bg, #23252C);
+  font-family: var(--ff);
+  font-size: var(--fs-100);
+  font-style: normal;
+  font-weight: var(--fw-400);
+  line-height: 150%;
+  display: grid;
+  place-content: center;
+  padding: 2.5rem 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: normal;
+}
