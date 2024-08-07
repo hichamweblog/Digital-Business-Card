@@ -19,7 +19,7 @@ This is a React project that showcases a digital business card. It is a simple a
 
 ## Demo
 
-- Live demo: [Digital Business card](https://your-live-demo-link.com)
+- Live demo: [Digital Business card](https://dz-digital-business-card.netlify.app/)
 
 ## Key Features
 
